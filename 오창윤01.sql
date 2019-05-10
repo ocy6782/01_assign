@@ -12,8 +12,8 @@ SELECT empno
 ORDER BY sal DESC
 ;
 /*
-EMPNO, ENAME, JOB, SAL
------------------------
+EMPNO,  ENAME,     JOB,     SAL
+--------------------------------
 7839	KING	PRESIDENT	5000
 7902	FORD	ANALYST	    3000
 7566	JONES	MANAGER 	2975
@@ -36,7 +36,7 @@ SELECT empno
 ORDER BY hiredate ASC
 ;
 /*
-EMPNO, ENAME, HIREDATE
+EMPNO,  ENAME,   HIREDATE
 ----------------------
 7369	SMITH	80/12/17
 7499	ALLEN	81/02/20
@@ -60,7 +60,7 @@ SELECT empno
 ORDER BY comm ASC
 ;
 /*
-EMPNO, ENAME, COMM
+EMPNO,  ENAME,  COMM
 -------------------
 7844	TURNER	0
 7499	ALLEN	300
@@ -85,7 +85,7 @@ ORDER BY comm DESC
 ;
 
 /*
-EMPNO, ENAME, COMM
+EMPNO,  ENAME,  COMM
 -------------------
 7369	SMITH	
 7698	BLAKE	
